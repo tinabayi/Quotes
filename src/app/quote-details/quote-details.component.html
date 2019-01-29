@@ -1,3 +1,4 @@
+
 <p>{{quote.voteSender}}</p>
 
 <p>{{quote.authorName}}</p>
@@ -5,6 +6,20 @@
 <p>{{quote.upvote}}</p>
 <p>{{quote.downvote}}</p>
 
-<button  (click)='toogleDetails(i)'>Upvote Details</button>
-<button  (click)='toogleDetails(i)'>downvote Details</button>
+
+<button  (click)='quote.upvote=quote.upvote+1'>Upvote Details</button>
+<button  (click)='quote.downvote=quote.downvote+1'>downvote Details</button>
 <button (click) = 'quoteComplete(true)'> Delete</button>
+
+
+
+
+
+
+
+
+
+
+
+
+

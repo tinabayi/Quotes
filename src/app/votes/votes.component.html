@@ -5,17 +5,17 @@
 <ul>
     <div *ngFor='let quote of quotes;let i = index'>
         <li  id="{{i}}" appHighlight>{{quote.quoteName}} due on {{quote.completeDate|date}}</li>
-         
+
+         <p>This quote will be completed in {{quote.completeDate|dateCount}} days</p>
+
+
         <button  (click)='toogleDetails(i)'>Show Details</button>
         <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'completequote($event,i)'></app-quote-details>
       </div>
-    <app-quote-form></app-quote-form>
+    <app-quote-form (addQuote)="addNewQuote($event)" ></app-quote-form>
 </ul>
 
 </div>
-
-
-
 
 
 

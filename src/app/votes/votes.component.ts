@@ -27,10 +27,25 @@ export class VotesComponent implements OnInit {
 
     toogleDetails(index){
       this.quotes[index].showDescription = !this.quotes[index].showDescription;
-  }
 
-  constructor() { }
+ 
+      
 
-  ngOnInit() {
-  }
+  
+
+} 
+addNewQuote(quote){
+    let quoteLength = this.quotes.length;
+    // Quote.id=quoteLength+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
+}
+constructor() { }
+
+ngOnInit() {
+
+
+
+
+}
 }

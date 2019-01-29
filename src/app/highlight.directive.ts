@@ -20,7 +20,7 @@ export class HighlightDirective {
 
     
   constructor(private elem:ElementRef){
-    this.elem.nativeElement.style.backgroundColor='yellow';
+    this.elem.nativeElement.style.backgroundColor='';
   }
 
   @HostListener("click") onClicks(){
