@@ -1,6 +1,11 @@
 # QuotesVotes
-
+~~~
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version  v8.x
+~~~
+## Author
+~~~
+CHRISTINE Bayizere
+~~~
 ## Description
 ~~~
 This is an application  that help people to appload quote and quotes will be voted.Then the application
