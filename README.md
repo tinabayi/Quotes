@@ -27,7 +27,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ~~~
 The quote vote application has quote name,quote sender,quote author, it has also  upvote and downvote button,
 in case you like a quote you click upvote button then quotes likes will increase,if you dislike you click the downvot botton
-according to the completion date quote can be deleted
+according to the completion date quote can be deleted.The application also has where a sender of quote can post anohter quote.
 ~~~
 ## link to deploy this website
 ~~~
