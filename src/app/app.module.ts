@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { VotesComponent } from './votes/votes.component';
+import { QuoteDetailsComponent } from './quote-details/quote-details.component';
+import { HighlightDirective } from './highlight.directive';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VotesComponent,
+    QuoteDetailsComponent,
+    HighlightDirective,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,
