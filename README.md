@@ -16,8 +16,15 @@ Run `ng generate component component-name` to generate a new component. You can 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
 ~~~
-### link to deploy this website
+## How the application works
+~~~
+The quote vote application has quote name,quote sender,quote author, it has also  upvote and downvote button,
+in case you like a quote you click upvote button then quotes likes will increase,if you dislike you click the downvot botton
+according to the completion date quote can be deleted
+~~~
+## link to deploy this website
 ~~~
 https://github.com/tinabayi/Quotes-Votes
 ~~~
